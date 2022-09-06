@@ -1,0 +1,117 @@
+
+/* @media (max-width:73.2em){ */
+    /* .logos img {
+        height: 2.6rem;
+        filter: brightness(0);
+        opacity: 50%;
+        
+        } 
+        .more-details {
+            padding:3rem;
+        } */
+        /* html {
+            font-size: 9.2px;
+        } */
+/* }
+@media (max-width:65.6em){
+    .logos img {
+        height: 2.6rem;
+    }
+
+} */
+
+@media(max-width:37.5em) {
+    html {
+       font-size: 6.2px;
+    }
+    .hero {
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+    .left-section img {
+        max-width: 63%;
+    
+    }
+    .left-section {
+        justify-content: center;
+        margin-top: 4rem;
+    }
+    .people img {
+        max-width: 7%;
+    }
+    .price-cards {
+
+        grid-template-columns: repeat(1,1fr);
+            padding: 0;
+    }
+    .form {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .logos img {
+        width: 18%;
+    }
+    .image-side {
+   
+        grid-row: 1/2;
+    }
+    .containers {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1.9fr;
+    }
+}
+@media(max-width:31.8em) {
+    html {
+    font-size: 5px;
+    }
+    .features-boxes {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5rem;
+        margin-bottom: 5rem;
+    }
+    .testimonials-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 42fr 57fr;
+  
+    }
+    .right-section {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(4,1fr);
+        padding: 5.5rem;
+        padding-top: 0rem;
+        justify-items: center;
+    }
+}
+
+@media(max-width:25.75em) {
+  
+    .container {
+        padding: 0 9rem;
+    }
+    .left-card, .right-card {
+        height: 41rem;
+        width: 27rem;
+    }
+    .title-section {
+        font-size: 2.5rem;
+    }
+    .header-section {
+        font-size: 2.5rem;
+    
+    }
+}
+@media(max-width:21.87em) {
+  
+header nav {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    visibility: hidden;
+}
+html {
+    font-size: 4px;
+}
+}
