@@ -59,6 +59,10 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1.9fr;
     }
+    .right-card:after {
+        top: 5%;
+        right: -28%;
+    }
 }
 @media(max-width:31.8em) {
     html {
